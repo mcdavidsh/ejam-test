@@ -1,0 +1,167 @@
+:root {
+    --e-primary-blue: #252F3D
+}
+
+body, html {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+.e-navbar-bg {
+    background: var(--e-primary-blue) !important;
+}
+
+.e-progress-icon-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background: #85BF55;
+    color: white;
+}
+.e-progress-icon-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background: #2C7EF8;
+    color: white;
+
+}
+.e-progress-icon-outline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2C7EF8;
+    color: #2C7EF8;
+}
+
+.e-progress-icon-check i {
+    color:  #ffffff
+
+}
+
+.e-item-wrapper {
+    background: #FAFAFA;
+}
+
+.e-customer-green {
+    color: #5BB59A;
+    font-size: 14px;
+    gap: 2px;
+}
+.e-customer-green-active {
+    font-size: 12px;
+
+}
+
+.e-customer-name {
+    color: #333333;
+    font-weight: 700;
+    font-size: 14px;
+}
+.e-review-text {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.e-product-title span{
+    text-transform: capitalize;
+    color: #2C7EF8;
+    font-weight: 400;
+}
+
+.e-product-title {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44.8px;
+}
+.e-product-sub-image {
+    background: #2C7EF8;
+    border-radius: 10px;
+}
+.e-product-title-sub {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.e-price-discount {
+    color: #969696;
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 600;
+}
+.e-price {
+    color: #2C7EF8;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.e-product-feat-list {
+    font-size: 16px;
+    font-weight: 300;
+}
+.e-product-feat-list span{
+    font-size: 16px;
+    font-weight: 700;
+
+
+}
+.e-coupon-sect {
+   background: #EDF3FD;
+    padding: 10px;
+    border-radius: 10px;
+}
+.e-progress-icon-percent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background: #2C7EF8;
+    color: white;
+}
+.e-coupon-sect span:not(.e-progress-icon-percent){
+    color: #2C7EF8;
+    font-size: 16px;
+}
+
+.e-product-btn {
+    background: #85BF55 !important;
+    border-radius: 50px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+}
+
+.e-product-finale {
+    color: #4D5254;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.e-nobtn {
+    color: #F82C2C !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    text-align: center !important;
+}
+
